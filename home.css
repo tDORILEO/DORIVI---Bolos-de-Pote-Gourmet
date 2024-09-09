@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #640254;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+.logo-container {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+.logo-img {
+    width: 70px; 
+    height: auto;
+}
+
+header {
+    background-color: #9b0475b4;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header .logo img{
+    width: 160px;
+    height: auto;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.hero {
+    background: url('2.png') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8d8989;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.cta {
+    background-color: #be0778; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 1rem 2rem; /* Aumenta o espaçamento interno */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px; /* Bordas arredondadas */
+    font-size: 1rem; /* Aumenta o tamanho da fonte */
+    display: inline-block; /* Para garantir que ele se comporte como bloco inline */
+    margin-top: 1.5rem; /* Espaçamento acima do botão */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave para hover */
+}
+
+.cta:hover {
+    background-color: #a00666; /* Cor ao passar o mouse */
+    transform: scale(1.05); /* Leve aumento ao passar o mouse */
+}
+
+.contact {
+    text-align: center; /* Centraliza todo o conteúdo da seção */
+}
+
+.contact ul {
+    list-style: none;
+    margin-bottom: 1rem; /* Ajusta o espaçamento das informações */
+}
+
+.contact a {
+    display: inline-block;
+}
+
+.about,
+.products,
+.testimonials,
+.contact {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.products .product-list {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.product-item h3 {
+    font-family: 'Georgia', serif;
+    font-size: 1.5rem;
+    color: #3e206d;
+    margin-bottom: 0.5rem;
+}
+
+.product-item p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.product-item span {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #640254;
+}
+
+.testimonials .testimonial-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.testimonial-item {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer .social-links a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    color: #ff6347;
+}
+
+/* Novos Estilos */
+
+h2 {
+    font-family: 'Georgia', serif;
+    color: #640254;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.products .product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.testimonials {
+    background-color: #f3f3f3;
+    padding: 2rem;
+}
+
+.testimonials h2 {
+    margin-bottom: 2rem;
+}
+
+.testimonial-item {
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
